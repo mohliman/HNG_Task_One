@@ -8,16 +8,18 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Muhammad Baqir Abubakar</h1>
-    <img src="images/IMG_3067.JPG" alt="">
-    <h2>Current Day Of the week</h2>
-    <span></span>
-    <h2>Current UTC Time</h2>
-    <span></span>
-    <h2>Track</h2>
-    <span>Frontend</span>
-    <h2>Github URL</h2>
-    <a href=""></a>
-
+<div class="container">
+    <h1 data-testid="slackUserName">Muhammad Baqir Abubakar</h1>
+    <img data-testid="slackDisplayImage" src="images/dp.JPG" alt="Muhammad Baqir Abubakar">
+    <h2>Current Day Of the week:</h2>
+    <span  data-testid="currentDayOfTheWeek" id="day"></span>
+    <h2>Current UTC Time:</h2>
+    <span  data-testid="currentUTCTime" id="time"></span>
+    <h2>Track:</h2>
+    <span data-testid="myTrack">Frontend</span>
+    <h2>Github URL:</h2>
+    <a data-testid=“githubURL” class="link" href="https://github.com/mohliman/HNG_Task_One" target="_blank">Click</a>
+</div>
 </body>
+<script src="app.js"></script>
 </html>
